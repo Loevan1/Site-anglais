@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,5 +8,42 @@
 <body>
     <h1><a href="index.html">DuoWords</a></h1>
     <h2>Découvre un mot au hasard</h2>
+    <p><b>Mot :</b> <span id="word"></span></p>
+    <p><b>Définition :</b> <span id="definition"></span></p>
+    
+    <button onclick="loadWord()">Nouveau mot</button>
+    <script>
+    async function getRandomWord() {
+      const res = await fetch("https://random-word-api.herokuapp.com/word");
+      const data = await res.json();
+      return data[0];
+    }
+
+    async function getDefinition(word) {
+      const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
+      const res = await fetch(url);
+      if (!res.ok) return "Pas de définition trouvée";
+
+      const data = await res.json();
+      try {
+        return data[0].meanings[0].definitions[0].definition;
+      } catch {
+        return "Pas de définition trouvée";
+      }
+    }
+
+    
+
+    async function loadWord() {
+      const word = await getRandomWord();
+      document.getElementById("word").textContent = word;
+
+      const definition = await getDefinition(word);
+      document.getElementById("definition").textContent = definition;
+
+    }
+
+    loadWord()
+  </script>
 </body>
 </html>
