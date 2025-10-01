@@ -12,6 +12,12 @@
     <p><b>Définition :</b> <span id="definition"></span></p>
     
     <button onclick="loadWord()">Nouveau mot</button>
+    <br>
+    <br>
+    <br>
+    <p><b>Mot :</b>  <span id="mot"></span></p>
+    <button onclick="tirerMot()">Nouveau mot</button>
+
     <script>
     async function getRandomWord() {
       const res = await fetch("https://random-word-api.herokuapp.com/word");
@@ -42,7 +48,13 @@
       document.getElementById("definition").textContent = definition;
 
     }
-
+    async function tirerMot(){
+      const reponse = await fetch("mots.json");
+      const liste = await reponse.json();
+      const mot =  liste[Math.floor(Math.random() * liste.length)];
+      document.getElementById("mot").textContent = mot;
+    }
+    tirerMot()
     loadWord()
   </script>
 </body>
