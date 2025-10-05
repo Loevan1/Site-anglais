@@ -1,1 +1,70 @@
-["apple", "banana", "cherry", "orange", "strawberry"]
+{
+  "words": [
+    {
+      "word": "functionality",
+      "part_of_speech": "noun",
+      "definition": "A range of functions a computer or other electronic device can perform.",
+      "example": "The new smartphone offers improved functionality compared to the previous model.",
+      "translation": {
+        "word": "fonctionnalité",
+        "definition": "Ensemble des fonctions qu’un ordinateur ou un appareil électronique peut accomplir.",
+        "example": "Le nouveau smartphone offre une meilleure fonctionnalité que le modèle précédent."
+      }
+    },
+    {
+      "word": "hang on to (something)",
+      "part_of_speech": "phrasal verb",
+      "definition": "Keep (something).",
+      "example": "You should hang on to that book — it might be useful later.",
+      "translation": {
+        "word": "garder (quelque chose)",
+        "definition": "Conserver quelque chose.",
+        "example": "Tu devrais garder ce livre — il pourrait être utile plus tard."
+      }
+    },
+    {
+      "word": "cycle",
+      "part_of_speech": "noun",
+      "definition": "A process where one event leads to another, and then often repeats itself.",
+      "example": "The water cycle is essential for maintaining life on Earth.",
+      "translation": {
+        "word": "cycle",
+        "definition": "Processus où un événement en entraîne un autre, et se répète souvent.",
+        "example": "Le cycle de l’eau est essentiel au maintien de la vie sur Terre."
+      }
+    },
+    {
+      "word": "mature",
+      "part_of_speech": "adjective",
+      "definition": "Fully grown or fully developed.",
+      "example": "An oak tree takes many years to become mature.",
+      "translation": {
+        "word": "mature / adulte",
+        "definition": "Entièrement développé ou arrivé à maturité.",
+        "example": "Un chêne met de nombreuses années à devenir mature."
+      }
+    },
+    {
+      "word": "must-have item",
+      "part_of_speech": "noun phrase",
+      "definition": "Something you feel you must have.",
+      "example": "Wireless earbuds are a must-have item for many commuters.",
+      "translation": {
+        "word": "objet indispensable",
+        "definition": "Quelque chose que l’on considère comme essentiel à posséder.",
+        "example": "Les écouteurs sans fil sont un objet indispensable pour de nombreux voyageurs."
+      }
+    },
+    {
+      "word": "lustre",
+      "part_of_speech": "noun",
+      "definition": "Shine.",
+      "example": "The silverware had lost its lustre over the years.",
+      "translation": {
+        "word": "lustre / éclat",
+        "definition": "Brillance ou éclat d’un objet.",
+        "example": "L’argenterie avait perdu son lustre au fil des années."
+      }
+    }
+  ]
+}

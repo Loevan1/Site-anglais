@@ -16,6 +16,8 @@
     <br>
     <br>
     <p><b>Mot :</b>  <span id="mot"></span></p>
+    <p><b>definition :</b>  <span id="def"></span></p>
+    <p><b>traduction :</b>  <span id="traduction"></span></p>
     <button onclick="tirerMot()">Nouveau mot</button>
 
     <script>
@@ -50,9 +52,13 @@
     }
     async function tirerMot(){
       const reponse = await fetch("mots.json");
-      const liste = await reponse.json();
+      const data = await reponse.json();
+      const liste = data.words;
+
       const mot =  liste[Math.floor(Math.random() * liste.length)];
-      document.getElementById("mot").textContent = mot;
+      document.getElementById("mot").textContent = mot.word;
+      document.getElementById("def").textContent = mot.definition;
+      document.getElementById("traduction").textContent = mot.translation.word;
     }
     tirerMot()
     loadWord()
