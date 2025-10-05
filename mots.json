@@ -65,6 +65,72 @@
         "definition": "Brillance ou éclat d’un objet.",
         "example": "L’argenterie avait perdu son lustre au fil des années."
       }
+    },
+    {
+      "word": "debate",
+      "part_of_speech": "noun",
+      "definition": "A discussion that a lot of people take part in.",
+      "example": "There was a long debate about climate change policies.",
+      "translation": {
+        "word": "débat",
+        "definition": "Discussion à laquelle participent de nombreuses personnes.",
+        "example": "Il y a eu un long débat sur les politiques liées au changement climatique."
+      }
+    },
+    {
+      "word": "stimulating",
+      "part_of_speech": "adjective",
+      "definition": "Encouraging new ideas and enthusiasm.",
+      "example": "The lecture was very stimulating and made me think differently.",
+      "translation": {
+        "word": "stimulant / inspirant",
+        "definition": "Qui encourage de nouvelles idées et suscite l’enthousiasme.",
+        "example": "La conférence était très stimulante et m’a fait voir les choses autrement."
+      }
+    },
+    {
+      "word": "consume",
+      "part_of_speech": "verb",
+      "definition": "Eat or drink; (also) use.",
+      "example": "Humans consume large amounts of water every day.",
+      "translation": {
+        "word": "consommer",
+        "definition": "Manger, boire ou utiliser quelque chose.",
+        "example": "Les humains consomment de grandes quantités d’eau chaque jour."
+      }
+    },
+    {
+      "word": "vibe",
+      "part_of_speech": "noun",
+      "definition": "The mood or atmosphere in a place.",
+      "example": "The café has a really relaxed vibe.",
+      "translation": {
+        "word": "ambiance / atmosphère",
+        "definition": "L’atmosphère ou l’humeur d’un lieu.",
+        "example": "Ce café a une ambiance vraiment détendue."
+      }
+    },
+    {
+      "word": "squatter",
+      "part_of_speech": "noun",
+      "definition": "Someone who lives in an empty building without paying rent.",
+      "example": "The police removed the squatters from the abandoned house.",
+      "translation": {
+        "word": "squatteur",
+        "definition": "Personne qui vit dans un bâtiment vide sans payer de loyer.",
+        "example": "La police a expulsé les squatteurs de la maison abandonnée."
+      }
+    },
+    {
+      "word": "hog",
+      "part_of_speech": "verb",
+      "definition": "Use all or most of something in a selfish way.",
+      "example": "Don’t hog the blanket, I’m cold too!",
+      "translation": {
+        "word": "monopoliser",
+        "definition": "Utiliser tout ou la majorité de quelque chose de manière égoïste.",
+        "example": "Ne monopolise pas la couverture, j’ai froid moi aussi !"
+      }
     }
   ]
 }
