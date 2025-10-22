@@ -7,3 +7,25 @@ h1 ,h3,h2, p{
 h3{
     font-size: 1.3em;
 }
+
+/* Lien jamais cliqué */
+a:link {
+    color: rgb(27,174, 247);
+    text-decoration: none;
+}
+
+/* Lien déjà cliqué */
+a:visited {
+    color: rgb(27, 174, 247);
+}
+
+/* Lien survolé par la souris */
+a:hover {
+    
+    text-decoration: underline;
+}
+
+/* Lien au moment du clic */
+a:active {
+    color: rgb(21, 0, 255);
+}
