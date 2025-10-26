@@ -1,4 +1,4 @@
-const container = document.querySelector("#containere");
+const container = document.querySelector("#container");
 const b_temps = document.querySelector('#b_temps');
 
 container.addEventListener('click',()=>{
