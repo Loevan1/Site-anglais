@@ -10,6 +10,24 @@ h1 ,h3,h2, p{
     padding:5% ;
     text-align: center;
 }
+#container{
+    display: flex;
+    justify-content: center;
+    gap: 15%;  
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#b_temps{
+    background-color: rgb(251,247,230);
+    color: rgb(27,174, 247);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 15%;
+    font-size: 1.2em;
+    padding: 2%;
+    border: 0.1;
+    border-color: darkgray;
+}
 h3{
     font-size: 1.3em;
 }
