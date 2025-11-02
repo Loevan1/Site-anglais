@@ -1,0 +1,39 @@
+faire un site web pour apprendre du vocabulaire en anglais
+
+
+page 1:
+
+menu avec :
+	- apprendre un nouveau mot
+	- apprendre une tournure de phrase
+	- apprendre des verbes et leur conjugaison
+	- revoir ce que j'ai appris
+
+
+page 2: 
+
+Apprendre un nouveau mot :
+	- avoir le mot aléatoire 
+	- avoir sa traduction
+	- avoir sa définition
+
+page 3: 
+
+Apprendre une tournure de phrase :
+	- avoir la phrase
+	- avoir la définition
+	- avoir la traduction
+
+page 4: 
+
+Apprendre des verbes et leur conjugaison :
+	- avoir le verbe
+	- avoir la définition
+	- avoir la conjugaison
+
+page 5: 
+
+Revoir ce que j'ai appris :
+	-avoir ce que j'ai déjà vu 
+	-dire si c'est facile ou non
+
